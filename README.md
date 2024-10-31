@@ -50,7 +50,7 @@ This is a Flask application that fetches and displays current currency exchange 
   python server.py
   ```
 
-2. Open your web browser and go to http://127.0.0.1:5000/ to view the application.
+2. Open your web browser and go to http://127.0.0.1:8000/ to view the application.
 
 
 
