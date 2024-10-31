@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Rates</title>
+    <link href="{{url_for('static',filename='style.css')}}" rel="stylesheet" />
+</head>
+<body>
+
+<div class="container">
+    <h1>Current Currency Rates</h1>
+    <table id="currency-table">
+        <thead>
+            <tr>
+                <th>Currency</th>
+                <th>Original Rate</th>
+                <th>Adjusted Rate</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Rows will be populated here -->
+        </tbody>
+    </table>
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
