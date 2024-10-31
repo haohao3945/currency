@@ -4,7 +4,7 @@ This is a Flask application that fetches and displays current currency exchange 
 
 ![App](result.png)
 
-## Features
+## Requirement
 
 - Fetches real-time currency rates from the Fixer API.
 - Adjusts the rates by adding a fixed value.
