@@ -41,7 +41,7 @@ This is a Flask application that fetches and displays current currency exchange 
   ```
 
 
-###Usage
+### Usage
 
 1.Start the Flask application:
   ```bash
